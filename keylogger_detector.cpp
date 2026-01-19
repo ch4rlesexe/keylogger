@@ -1,3 +1,5 @@
+//  g++ keylogger_detector.cpp -o detector.exe -lpsapi -liphlpapi -lws2_32
+
 #include <winsock2.h> // network
 #include <ws2tcpip.h> // network
 #include <windows.h> // windows api
